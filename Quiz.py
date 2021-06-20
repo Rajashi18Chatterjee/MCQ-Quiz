@@ -84,7 +84,7 @@ print("Your final score is " + str(score))
 
 if score == 5:
 	print("Excellent!")	
-elif 3 < score < 5:
+elif 3 <= score < 5:
 	print("Good!")		
 else:
 	print("Try again!")	
